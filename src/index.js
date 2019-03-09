@@ -5,4 +5,4 @@
 const app = require('./app');
 require('./config/database');
 
-module.exports = app;
+module.exports = app
