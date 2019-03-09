@@ -9,11 +9,11 @@
     "prettier": "prettier --write 'src/**/*.js'",
     "lint": "eslint src"
   },
-    "husky":{
-        "hooks": {
-            "precommit": "npm run lint && npm run prettier"
-        }
-    },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run lint && npm run prettier"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
